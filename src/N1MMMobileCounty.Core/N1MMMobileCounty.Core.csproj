@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <RootNamespace>N1MMMobileCounty.Core</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- One boundary file per QSO party (party_NY.bin, party_TX.bin, ...) plus the list of parties; written by tools/BuildPartyData. -->
+    <EmbeddedResource Include="Data\party_*.bin;Data\parties.tsv" LogicalName="%(Filename)%(Extension)" />
+  </ItemGroup>
+
+</Project>

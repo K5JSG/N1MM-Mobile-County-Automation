@@ -1,0 +1,18 @@
+# Quebec QSO Party: code <TAB> administrative region <TAB> Statistics Canada economic region (er:<ERUID>); the 17 economic regions of Quebec are its 17 administrative regions
+GIM	Gaspesie - Iles-de-la-Madeleine	er:2410
+BSA	Bas-Saint-Laurent	er:2415
+QUE	Capitale-Nationale	er:2420
+CAS	Chaudiere-Appalaches	er:2425
+ETE	Estrie	er:2430
+CDQ	Centre-du-Quebec	er:2433
+MEE	Monteregie	er:2435
+MTL	Montreal	er:2440
+LVL	Laval	er:2445
+LDE	Lanaudiere	er:2450
+LNS	Laurentides	er:2455
+OTS	Outaouais	er:2460
+ATE	Abitibi-Temiscamingue	er:2465
+MAU	Mauricie	er:2470
+SLS	Saguenay - Lac-Saint-Jean	er:2475
+CND	Cote-Nord	er:2480
+NDQ	Nord-du-Quebec	er:2490

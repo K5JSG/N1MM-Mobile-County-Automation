@@ -1,0 +1,53 @@
+# Ontario QSO Party multipliers (effective 2023-01-01): code <TAB> display name <TAB> source polygon(s), joined by +
+# cd:<province>:<census division name>  or  csd:<census subdivision id> (used where the party splits a census division)
+# Source of names: http://www.va3cco.com/oqp/OQPMultList.pdf
+ALG	Algoma District	cd:35:Algoma
+BRA	Brant County	csd:3529005
+BFD	City of Brantford	csd:3529006
+BRU	Bruce County	cd:35:Bruce
+CHK	City of Chatham-Kent	cd:35:Chatham-Kent
+COC	Cochrane District	cd:35:Cochrane
+DUF	Dufferin County	cd:35:Dufferin
+DUR	Durham Regional Municipality	cd:35:Durham
+ELG	Elgin County	cd:35:Elgin
+ESX	Essex County	cd:35:Essex
+FRO	Frontenac County	cd:35:Frontenac
+GRY	Grey County	cd:35:Grey
+HAL	Town of Haldimand	csd:3528018
+HLB	Haliburton County	cd:35:Haliburton
+HTN	Halton Regional Municipality	cd:35:Halton
+HAM	City of Hamilton	cd:35:Hamilton
+HAS	Hastings County	cd:35:Hastings
+HUR	Huron County	cd:35:Huron
+KAW	City of Kawartha Lakes	cd:35:Kawartha Lakes
+KEN	Kenora District	cd:35:Kenora
+LAM	Lambton County	cd:35:Lambton
+LAN	Lanark County	cd:35:Lanark
+LGR	Leeds & Grenville United Counties	cd:35:Leeds and Grenville
+LXA	Lennox-Addington County	cd:35:Lennox and Addington
+MAN	Manitoulin District	cd:35:Manitoulin
+MSX	Middlesex County	cd:35:Middlesex
+MUS	Muskoka District	cd:35:Muskoka
+NIA	Niagara Regional Municipality	cd:35:Niagara
+NIP	Nipissing District	cd:35:Nipissing
+NFK	Town of Norfolk	csd:3528052
+NOR	Northumberland County	cd:35:Northumberland
+OTT	City of Ottawa	cd:35:Ottawa
+OXF	Oxford County	cd:35:Oxford
+PSD	Parry Sound District	cd:35:Parry Sound
+PEL	Peel Regional Municipality	cd:35:Peel
+PER	Perth County	cd:35:Perth
+PET	Peterborough County	cd:35:Peterborough
+PRU	United Counties of Prescott & Russell	cd:35:Prescott and Russell
+PED	City of Prince Edward	cd:35:Prince Edward
+RAI	Rainy River District	cd:35:Rainy River
+REN	Renfrew County	cd:35:Renfrew
+SIM	Simcoe County	cd:35:Simcoe
+SDG	United Counties of Stormont, Dundas & Glengarry	cd:35:Stormont, Dundas and Glengarry
+SUD	Sudbury District (with Greater Sudbury)	cd:35:Sudbury+cd:35:Greater Sudbury / Grand Sudbury
+TBY	Thunder Bay District	cd:35:Thunder Bay
+TIM	Timiskaming District	cd:35:Timiskaming
+TOR	City of Toronto	cd:35:Toronto
+WAT	Waterloo Regional Municipality	cd:35:Waterloo
+WEL	Wellington County	cd:35:Wellington
+YRK	York Regional Municipality	cd:35:York

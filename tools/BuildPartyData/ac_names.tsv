@@ -1,0 +1,49 @@
+# Atlantic Canada QSO Party: code <TAB> display name <TAB> Statistics Canada census division (cd:<province id>:<name>) - https://acqp.ca/resources/
+# province ids: 10 NL, 11 PE, 12 NS, 13 NB
+NLASJ	Avalon Peninsula - St. John's (Div 1)	cd:10:Division No.  1
+NLBMT	Burin Peninsula - Marystown (Div 2)	cd:10:Division No.  2
+NLSCB	South Coast - Channel-Port aux Basques (Div 3)	cd:10:Division No.  3
+NLSGS	St. George's - Stephenville (Div 4)	cd:10:Division No.  4
+NLHCB	Humber District - Corner Brook (Div 5)	cd:10:Division No.  5
+NLGFW	Central Newfoundland - Grand Falls-Windsor (Div 6)	cd:10:Division No.  6
+NLBTC	Bonavista / Trinity - Clarenville (Div 7)	cd:10:Division No.  7
+NLNDL	Notre Dame Bay - Lewisporte (Div 8)	cd:10:Division No.  8
+NLNSA	Northern Peninsula - St. Anthony (Div 9)	cd:10:Division No.  9
+NLLGB	Labrador - Happy Valley-Goose Bay (Div 10)	cd:10:Division No. 10
+NLLNN	Nunatsiavut - Nain (Div 11)	cd:10:Division No. 11
+PEKGS	Kings	cd:11:Kings
+PEPRN	Prince	cd:11:Prince
+PEQNS	Queens	cd:11:Queens
+NBALB	Albert	cd:13:Albert
+NBCAR	Carleton	cd:13:Carleton
+NBCHA	Charlotte	cd:13:Charlotte
+NBGLO	Gloucester	cd:13:Gloucester
+NBKEN	Kent	cd:13:Kent
+NBKGS	Kings	cd:13:Kings
+NBMAD	Madawaska	cd:13:Madawaska
+NBNOR	Northumberland	cd:13:Northumberland
+NBQNS	Queens	cd:13:Queens
+NBRES	Restigouche	cd:13:Restigouche
+NBSJC	Saint John	cd:13:Saint John
+NBSUN	Sunbury	cd:13:Sunbury
+NBVIC	Victoria	cd:13:Victoria
+NBWES	Westmorland	cd:13:Westmorland
+NBYOR	York	cd:13:York
+NSANP	Annapolis	cd:12:Annapolis
+NSATG	Antigonish	cd:12:Antigonish
+NSCBR	Cape Breton	cd:12:Cape Breton
+NSCOL	Colchester	cd:12:Colchester
+NSCMB	Cumberland	cd:12:Cumberland
+NSDIG	Digby	cd:12:Digby
+NSGUY	Guysborough	cd:12:Guysborough
+NSHRM	Halifax	cd:12:Halifax
+NSHNT	Hants	cd:12:Hants
+NSINV	Inverness	cd:12:Inverness
+NSKGS	Kings	cd:12:Kings
+NSLUN	Lunenburg	cd:12:Lunenburg
+NSPIC	Pictou	cd:12:Pictou
+NSQNS	Queens	cd:12:Queens
+NSRIC	Richmond	cd:12:Richmond
+NSSHL	Shelburne	cd:12:Shelburne
+NSVIC	Victoria	cd:12:Victoria
+NSYAR	Yarmouth	cd:12:Yarmouth

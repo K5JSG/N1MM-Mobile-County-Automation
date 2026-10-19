@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <!-- Named like the real thing so the sender finds it by process name. -->
+    <AssemblyName>N1MMLogger.net</AssemblyName>
+    <RootNamespace>FakeN1mm</RootNamespace>
+  </PropertyGroup>
+
+</Project>

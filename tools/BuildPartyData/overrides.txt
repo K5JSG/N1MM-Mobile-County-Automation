@@ -1,0 +1,19 @@
+# party:code<TAB>county (Census name)
+DE:KDE	Kent County
+DE:NDE	New Castle County
+DE:SDE	Sussex County
+IL:BURO	Bureau County
+PA:BUX	Bucks County
+PA:DCO	Delaware County
+MD:WDC	District of Columbia
+VA:FFX	Fairfax County
+MAQP:FFXVA	Fairfax County, VA
+MAQP:BUXPA	Bucks County, PA
+MAQP:DCOPA	Delaware County, PA
+MAQP:CAPDC	District of Columbia, DC
+MAQP:WUDWV	Wood County, WV
+MAQP:BEXVA	-
+MO:STL	St. Louis city
+MO:SLC	St. Louis County
+MD:BAL	Baltimore city
+MD:BCT	Baltimore County
