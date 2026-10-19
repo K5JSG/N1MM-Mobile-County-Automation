@@ -14,7 +14,7 @@ using N1MMMobileCounty.Core;
 
 namespace N1MMMobileCounty.App
 {
-    public sealed class MainForm : Form
+    public sealed partial class MainForm : Form
     {
         private const int MaxAutoFailures = 5;
         private const double KnotsToMph = 1.15078;
@@ -105,6 +105,7 @@ namespace N1MMMobileCounty.App
                 StartGps();
                 StartExchLookup();
                 StartVoiceFileWatcher();
+                _ = CheckCountyDataAsync(manual: false);
             };
             FormClosing += (_, _) => Shutdown();
         }
@@ -198,10 +199,10 @@ namespace N1MMMobileCounty.App
         }
 
         /// <summary>Loads a party's counties and starts over (no committed county until the next few fixes).</summary>
-        private void ApplyParty(string id)
+        private void ApplyParty(string id, bool force = false)
         {
             var info = QsoParties.Find(id) ?? QsoParties.Find("NY")!;
-            if (_locator != null && info.Id.Equals(_partyId, StringComparison.OrdinalIgnoreCase))
+            if (!force && _locator != null && info.Id.Equals(_partyId, StringComparison.OrdinalIgnoreCase))
             {
                 return;
             }

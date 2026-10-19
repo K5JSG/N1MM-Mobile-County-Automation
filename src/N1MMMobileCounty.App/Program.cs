@@ -19,11 +19,15 @@ namespace N1MMMobileCounty.App
         ///   N1MMMobileCountyAutomation.exe --replay file.nmea   practice run from a recorded NMEA file
         ///   N1MMMobileCountyAutomation.exe --send-test ALB [resultfile]   push one county to N1MM+ and exit (test aid)
         /// </summary>
+        /// <summary>Folder (inside the settings folder) that holds county data installed from an update.</summary>
+        internal const string CountyDataFolderName = "county-data";
+
         [STAThread]
         private static async Task<int> Main(string[] args)
         {
             ApplicationConfiguration.Initialize();
             var settings = AppSettings.Load();
+            QsoParties.UseOverrideFolder(AppPaths.File(CountyDataFolderName));
 
             if (args.Length >= 1 && args[0] == "--selfcheck")
             {

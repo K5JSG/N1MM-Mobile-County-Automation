@@ -16,6 +16,7 @@ Built by Jeremy S. Gaynor, K5JSG, for the New York QSO Party and since extended 
 - **Exch-box county name.** While you type a county, state or province code in N1MM+'s Exch box, a label at the top of the screen shows the full name.
 - **Choose your GPS.** Right-click > GPS port / baud rate, or "None" to release the port for another program.
 - **Closes with N1MM+.** The program exits a few seconds after N1MM+ closes (setting `ExitWithN1mm`).
+- **County data updates.** About 20 seconds after it starts, the program looks (no login needed) at the `county-data` release on its GitHub page for newer county data. If there is some it asks **Update** or **Not now**; after Update it asks whether to update **all** the parties that have newer data or **just the current QSO party**. Not now means it asks again the next time the program starts. With no internet connection nothing is shown. Right-click > **County data** checks on demand or goes back to the data the program came with. Downloaded files are checked before they are used, and the data the program shipped with is always the fallback.
 
 ## Installation
 
@@ -49,7 +50,7 @@ The county code sent is the one N1MM+ accepts for that party (e.g. `ALB` for NYQ
 
 ## Settings
 
-`N1MMMobileCountyAutomation.ini` in `%LocalAppData%\N1MM Mobile County Automation` (created on first run; edit it while the app is closed): `ComPort`, `BaudRate`, `QsoParty`, `N1mmIni`, `AutoSwitch`, `ConfirmFixes=3`, `AlwaysOnTop`, `Beep`, `ShowBar`, `StartMinimized`, `FlashSeconds=15`, `IdleSeconds=1.5`, `N1mmProcessName=N1MMLogger.net`, `ExitWithN1mm=True`, `ExchLookup=True`. A copy with a `portable.txt` (or the settings file) next to the exe keeps its settings and logs there instead.
+`N1MMMobileCountyAutomation.ini` in `%LocalAppData%\N1MM Mobile County Automation` (created on first run; edit it while the app is closed): `ComPort`, `BaudRate`, `QsoParty`, `N1mmIni`, `AutoSwitch`, `ConfirmFixes=3`, `AlwaysOnTop`, `Beep`, `ShowBar`, `StartMinimized`, `FlashSeconds=15`, `IdleSeconds=1.5`, `N1mmProcessName=N1MMLogger.net`, `ExitWithN1mm=True`, `ExchLookup=True`, `CheckCountyData=True`, `CountyDataUrl` (empty = the GitHub page). Updated county data is kept in a `county-data` folder beside the settings. A copy with a `portable.txt` (or the settings file) next to the exe keeps its settings and logs there instead.
 
 Two logs sit beside the settings: `county-changes.log` (every county change) and `diagnostics.log` (errors, send results and any time the strip stopped responding, with the step it was stuck on - read it first if something misbehaves on a drive).
 

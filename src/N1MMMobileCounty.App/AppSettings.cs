@@ -63,6 +63,12 @@ namespace N1MMMobileCounty.App
         /// <summary>Full path of N1MM+'s "N1MM Logger.ini" (where it records the open contest). Empty = look in the usual Documents folders.</summary>
         public string N1mmIni { get; set; } = string.Empty;
 
+        /// <summary>Check for newer county data (published on the program's GitHub page) a little after the program starts, and offer it.</summary>
+        public bool CheckCountyData { get; set; } = true;
+
+        /// <summary>Where county-data updates come from: an https address or a folder holding manifest.json. Empty = the program's GitHub page.</summary>
+        public string CountyDataUrl { get; set; } = string.Empty;
+
         public static AppSettings Load()
         {
             var settings = new AppSettings();
@@ -117,6 +123,8 @@ namespace N1MMMobileCounty.App
                 $"SaveFunctionKeys={SaveFunctionKeys}",
                 $"QsoParty={QsoParty}",
                 $"N1mmIni={N1mmIni}",
+                $"CheckCountyData={CheckCountyData}",
+                $"CountyDataUrl={CountyDataUrl}",
             };
             try
             {
@@ -151,6 +159,8 @@ namespace N1MMMobileCounty.App
                 case "savefunctionkeys": SaveFunctionKeys = ParseBool(value, SaveFunctionKeys); break;
                 case "qsoparty": QsoParty = value.Length == 0 ? "auto" : value; break;
                 case "n1mmini": N1mmIni = value; break;
+                case "checkcountydata": CheckCountyData = ParseBool(value, CheckCountyData); break;
+                case "countydataurl": CountyDataUrl = value; break;
             }
         }
 

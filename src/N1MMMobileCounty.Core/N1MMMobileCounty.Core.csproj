@@ -10,7 +10,7 @@
 
   <ItemGroup>
     <!-- One boundary file per QSO party (party_NY.bin, party_TX.bin, ...) plus the list of parties; written by tools/BuildPartyData. -->
-    <EmbeddedResource Include="Data\party_*.bin;Data\parties.tsv" LogicalName="%(Filename)%(Extension)" />
+    <EmbeddedResource Include="Data\party_*.bin;Data\parties.tsv;Data\data-rev.tsv" LogicalName="%(Filename)%(Extension)" />
   </ItemGroup>
 
 </Project>

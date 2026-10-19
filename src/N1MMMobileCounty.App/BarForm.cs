@@ -46,9 +46,15 @@ namespace N1MMMobileCounty.App
             _exchItem.Click += (_, _) => _owner.SetExchLookup(!_owner.ExchLookupEnabled);
             var details = new ToolStripMenuItem("Show details window");
             details.Click += (_, _) => _owner.ShowDetails();
+            var dataItem = new ToolStripMenuItem("County data");
+            var checkData = new ToolStripMenuItem("Check for county data updates...");
+            checkData.Click += (_, _) => _owner.CheckCountyDataNow();
+            var builtIn = new ToolStripMenuItem("Use the county data this program came with...");
+            builtIn.Click += (_, _) => _owner.UseBuiltInCountyData();
+            dataItem.DropDownItems.AddRange(new ToolStripItem[] { checkData, builtIn });
             var exit = new ToolStripMenuItem("Exit");
             exit.Click += (_, _) => _owner.ExitApp();
-            menu.Items.AddRange(new ToolStripItem[] { _autoItem, _exchItem, _partyItem, _gpsItem, _baudItem, details, new ToolStripSeparator(), exit });
+            menu.Items.AddRange(new ToolStripItem[] { _autoItem, _exchItem, _partyItem, _gpsItem, _baudItem, dataItem, details, new ToolStripSeparator(), exit });
             menu.Opening += (_, _) =>
             {
                 _autoItem.Checked = _owner.AutoSwitchEnabled;
